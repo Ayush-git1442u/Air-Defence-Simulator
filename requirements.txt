@@ -1,0 +1,12 @@
+# ─────────────────────────────────────────
+# Air Defense Simulation — Dependencies
+# ─────────────────────────────────────────
+
+# Phase 2 — Simulation Core
+numpy                        # 3D vector math, position/velocity calculations
+
+# Phase 3 — AI / ML
+scikit-learn                 # ML threat classifier (RandomForest)
+gymnasium                    # RL training environment wrapper
+stable-baselines3            # PPO reinforcement learning agent
+torch                        # PyTorch — LSTM trajectory predictor (optional)
